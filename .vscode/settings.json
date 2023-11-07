@@ -1,0 +1,145 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdfLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "lualatex",
+            "tools": [
+                "lualatex"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ biber ➞ pdflatex`×2",
+            "tools": [
+                "pdflatex",
+                "biber",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex ➞ biber ➞ xelatex`×2",
+            "tools": [
+                "xelatex",
+                "biber",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "lualatex ➞ biber ➞ lualatex`×2",
+            "tools": [
+                "lualatex",
+                "biber",
+                "lualatex",
+                "lualatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "grammarly.config.documentDialect": "british",
+    "grammarly.config.documentDomain": "academic",
+    "grammarly.config.suggestions.OxfordComma": true,
+    "grammarly.files.include": [
+        "**/*.tex"
+    ],
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Catppuccin Latte",
+    "materialTheme.accent": "Cyan",
+    "editor.codeLensFontFamily": "",
+    "editor.fontFamily": "'Cascadia Code SemiLight', 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "latex-workshop.latex.outDir": "%DIR%",
+    "latex-workshop.texcount.autorun": "onSave",
+    "latex-workshop.texcount.interval": 10000,
+    "latex-workshop.texcount.args": [
+        "-inc",
+        "-total"
+    ],
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "catppuccin.italicComments": false,
+    "catppuccin.italicKeywords": false,
+    "catppuccin.accentColor": "mauve",
+    "catppuccin.workbenchMode": "flat"
+}
