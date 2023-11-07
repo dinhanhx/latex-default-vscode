@@ -1,5 +1,11 @@
 # Note
 
+## Use this repo as a template repo
+
+```bash
+gh repo clone dinhanhx/latex-default-vscode your-latex-project-folder
+```
+
 ## Bibliography engines
 
 By default, `.vscode/settings.json` uses biber and biblatex configs, which are hardcoded in `latex-workshop.latex.recipes`. If one wishes to change or revert to this default, try to update using one of the following configs.
