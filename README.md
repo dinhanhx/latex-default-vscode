@@ -92,4 +92,10 @@ By default, `.vscode/settings.json` uses biber and biblatex configs, which are h
 
 ## Latex packages
 
+### TexLive 
+
 There are `package_install.sh` (for Linux) and `package_install.bat` (for Windows). One can reinstall all packages. 
+
+### MikTex
+
+TODO
