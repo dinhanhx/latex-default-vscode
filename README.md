@@ -20,7 +20,7 @@ One can take a look at `.vscode/extensions.json`.
 
 ## Font for Vscode
 
-By configs, this template uses 'Cascadia Code SemiLight' which can be installed from [Cascadia Code](https://github.com/microsoft/cascadia-code).
+This template uses 'Cascadia Code SemiLight' which can be installed from [Cascadia Code](https://github.com/microsoft/cascadia-code).
 
 ## Bibliography engines
 
@@ -89,3 +89,7 @@ By default, `.vscode/settings.json` uses biber and biblatex configs, which are h
     ]
 }
 ```
+
+## Latex packages
+
+There are `package_install.sh` (for Linux) and `package_install.bat` (for Windows). One can reinstall all packages. 
