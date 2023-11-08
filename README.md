@@ -1,10 +1,26 @@
-# Note
+# Latex Default Vscode configs
+
+![Example](image.png)
 
 ## Use this repo as a template repo
 
+With [gh-cli](https://cli.github.com/)
 ```bash
-gh repo clone dinhanhx/latex-default-vscode your-latex-project-folder
+gh repo clone dinhanhx/latex-default-vscode folder-name
 ```
+
+With git, 
+```bash
+git clone https://github.com/dinhanhx/latex-default-vscode.git folder-name
+```
+
+## Vscode extension list
+
+One can take a look at `.vscode/extensions.json`.
+
+## Font for Vscode
+
+By configs, this template uses 'Cascadia Code SemiLight' which can be installed from [Cascadia Code](https://github.com/microsoft/cascadia-code).
 
 ## Bibliography engines
 
