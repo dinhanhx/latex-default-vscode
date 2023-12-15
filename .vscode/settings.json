@@ -120,15 +120,14 @@
     "latex-workshop.latex.recipe.default": "lastUsed",
     "grammarly.config.documentDialect": "british",
     "grammarly.config.documentDomain": "academic",
-    "grammarly.config.suggestions.OxfordComma": true,
+    "grammarly.config.suggestionCategories.oxfordComma": "on",
     "grammarly.files.include": [
         "**/*.tex"
     ],
     "editor.wordWrap": "on",
     "workbench.colorTheme": "Catppuccin Latte",
-    "materialTheme.accent": "Cyan",
     "editor.codeLensFontFamily": "",
-    "editor.fontFamily": "'Cascadia Code SemiLight', 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code SemiLight', monospace",
     "editor.fontSize": 14,
     "latex-workshop.latex.outDir": "%DIR%",
     "latex-workshop.texcount.autorun": "onSave",
@@ -140,6 +139,6 @@
     "latex-workshop.bibtex-format.tab": "4 spaces",
     "catppuccin.italicComments": false,
     "catppuccin.italicKeywords": false,
-    "catppuccin.accentColor": "mauve",
+    "catppuccin.accentColor": "blue",
     "catppuccin.workbenchMode": "flat"
 }
