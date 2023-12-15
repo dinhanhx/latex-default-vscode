@@ -14,13 +14,16 @@ With git,
 git clone https://github.com/dinhanhx/latex-default-vscode.git folder-name
 ```
 
-## Vscode extension list
+Don't forget to delete `.git` folder
+
+## Recommended extension list
 
 One can take a look at `.vscode/extensions.json`.
 
-## Font for Vscode
+## Font and Theme
 
-This template uses 'Cascadia Code SemiLight' which can be installed from [Cascadia Code](https://github.com/microsoft/cascadia-code).
+- 'Cascadia Code SemiLight' which can be installed from [Cascadia Code](https://github.com/microsoft/cascadia-code).
+- 'Catppuccin Latte' with 'blue' which can be installed from [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 ## Bibliography engines
 
@@ -94,7 +97,7 @@ By default, `.vscode/settings.json` uses biber and biblatex configs, which are h
 
 ### TexLive 
 
-There are `package_install.sh` (for Linux) and `package_install.bat` (for Windows). One can reinstall all packages. 
+There are `package_install.sh` (for Linux) and `package_install.bat` (for Windows). One can reinstall all packages.
 
 ### MikTex
 
